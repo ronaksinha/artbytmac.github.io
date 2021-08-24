@@ -4,17 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
     <main>
         <section class="tmac-header">
-            <h1>
+            <h1 class="section-header">
                 Tmac Art
             </h1>
-            <p>
+            <p class="section-paragraph">
                 Art by Tmac
             </p>
+        </section>
+        <section class="tmac-about-me">
+            <div style="padding-top: 25px;">
+                <h2 class="sub-section-header">
+                    Up and coming artist
+                </h2>
+                <p class="sub-section-paragraph">
+                    Spray Paint Artist/ Acrylic Pouring Artist / Cricut Designer
+                </p>
+            </div>     
+        </section>
+        <section class="tmac-projects">
+            <div style="padding-top: 25px;">
+                <h2 class="sub-section-header">
+                    Projects
+                </h2>
+                <p class="sub-section-paragraph">
+                    le projects
+                </p>
+            </div>     
+        </section>
+        <section class="tmac-contact">
+            <div style="padding-top: 25px;">
+                <h2 class="sub-section-header">
+                    Get in Touch!
+                </h2>
+                <p class="sub-section-paragraph">
+                    Send me a message for business inquiries
+                </p>
+            </div>    
+            <div class="contact-grid">
+                <div id="contact">
+                    <div id="contact-form">
+                            <form action="https://formspree.io/f/xqkwgobg" method="POST">
+                            <input type="hidden" name="_subject" value="Contact request from personal website" />
+                            <div>
+                                <p>
+                                    Your email
+                                    <input type="email" name="_replyto" placeholder="email@mail.com" required style="display: block;">
+                                </p>
+                                
+                            </div>
+                            <div>
+                                <p>
+                                    Message 
+                                <textarea  name="message" required ></textarea>
+                                </p>
+                                
+                            </div>
+                            <div>
+                                <button type="submit">Send</button>
+                            </div>                            
+                        </form>
+                    </div>
+                </div>   
+            </div> 
         </section>
     </main>
 </body>
